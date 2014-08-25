@@ -1,12 +1,12 @@
 #!/usr/bin/env php
 <?php
 
-date_default_timezone_set('UTC'); // we don't want warnings
-session_start(); // we boot the session ourselves as a workaround for now
-
 // if you don't want to setup permissions the proper way, just uncomment the following PHP line
 // read http://symfony.com/doc/current/book/installation.html#configuration-and-setup for more information
 //umask(0000);
+
+date_default_timezone_set('Europe/Vilnius'); // we don't want warnings
+session_start(); // we boot the session ourselves as a workaround for now
 
 set_time_limit(0);
 
