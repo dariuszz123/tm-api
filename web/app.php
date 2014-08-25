@@ -1,5 +1,8 @@
 <?php
 
+date_default_timezone_set('UTC'); // we don't want warnings
+session_start(); // we boot the session ourselves as a workaround for now
+
 use Symfony\Component\ClassLoader\ApcClassLoader;
 use Symfony\Component\HttpFoundation\Request;
 

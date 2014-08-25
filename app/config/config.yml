@@ -67,3 +67,10 @@ swiftmailer:
     username:  "%mailer_user%"
     password:  "%mailer_password%"
     spool:     { type: memory }
+
+# doctrine coutch db configuration
+doctrine_couch_db:
+  client:
+    dbname: "%database_name%"
+  odm:
+    auto_mapping: true
